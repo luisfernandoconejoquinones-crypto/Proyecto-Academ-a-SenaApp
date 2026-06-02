@@ -1,0 +1,134 @@
+/* TABLET */
+
+@media (max-width: 992px){
+
+    .hero{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-botones{
+        justify-content: center;
+    }
+
+    .contenedor-programas{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .contenedor-cursos{
+        flex-direction: column;
+    }
+
+    .expertos{
+        flex-direction: column;
+    }
+
+    .footer-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .navbar{
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .buscar{
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
+
+/* CELULAR */
+
+@media (max-width: 768px){
+
+    .hero-contenido h1{
+        font-size: 40px;
+    }
+
+    .titulo-seccion{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .titulo-seccion h2{
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .contenedor-programas{
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+
+    .nav-links{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero-botones{
+        flex-direction: column;
+    }
+
+    .btn-principal,
+    .btn-secundario{
+        text-align: center;
+    }
+
+    .expertos-texto h2{
+        font-size: 30px;
+    }
+
+    .cursos-destacados h2{
+        font-size: 32px;
+    }
+
+    .curso-info h3{
+        font-size: 18px;
+    }
+
+    .testimonio-contenido p{
+        font-size: 18px;
+    }
+}
+
+
+/* CELULARES PEQUEÑOS */
+
+@media (max-width: 480px){
+
+    .hero{
+        margin-top: 30px;
+    }
+
+    .hero-contenido h1{
+        font-size: 32px;
+    }
+
+    .programa-card{
+        min-height: auto;
+    }
+
+    .formulario form{
+        padding: 20px;
+    }
+
+    .form-header{
+        font-size: 18px;
+    }
+
+    .navbar{
+        text-align: center;
+        justify-content: center;
+    }
+
+    .logo{
+        justify-content: center;
+        width: 100%;
+    }
+}
