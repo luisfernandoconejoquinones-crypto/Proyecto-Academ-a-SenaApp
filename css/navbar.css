@@ -1,0 +1,53 @@
+.navbar{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 15px 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo h2{
+    color: #4f7cff;
+    font-size: 30px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #555;
+    font-size: 15px;
+}
+
+.buscar{
+    flex: 1;
+    max-width: 400px;
+    margin: 0 30px;
+}
+
+.buscar-input{
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+
+.btn-navbar{
+    background: #4f7cff;
+    color: white !important;
+    padding: 12px 20px;
+    border-radius: 6px;
+}
